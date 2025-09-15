@@ -1,7 +1,7 @@
 using SciCalc.ViewModels;
 
-namespace SciCalc.Views;
 
+namespace SciCalc.Views;
 public partial class CalculatorPage : ContentPage
 {
     public CalculatorPage()

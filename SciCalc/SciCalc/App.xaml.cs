@@ -1,4 +1,5 @@
 ﻿using SciCalc.Views;
+
 #if WINDOWS
 using Microsoft.UI;
 using Microsoft.UI.Windowing;
