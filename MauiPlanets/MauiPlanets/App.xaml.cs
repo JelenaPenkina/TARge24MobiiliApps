@@ -28,8 +28,7 @@ namespace MauiPlanets
                 appWindow.Resize(new SizeInt32(WindowWidth, WindowHeight)); 
             #endif
             });
-
-       
+      
         }
 
         protected override Window CreateWindow(IActivationState? activationState)
