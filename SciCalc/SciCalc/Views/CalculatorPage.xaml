@@ -315,7 +315,7 @@
             Style="{StaticResource OperatorButtonStyle}"
             Text="×" 
             Command="{Binding MathOperatorCommand}"
-            CommandParameter="×" />
+            CommandParameter="*" />
 
         <Button
             Grid.Row="7"
