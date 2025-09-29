@@ -44,7 +44,7 @@
 
             <VerticalStackLayout
                 Spacing="18">
-                
+
                 <!--Planet Image-->
                 <Image 
                     Source="{Binding HeroImage}"
@@ -52,7 +52,7 @@
                     HorizontalOptions="Fill"
                     HeightRequest="240" 
                     Margin="24,0"/>
-                
+
                 <!--Planet name-->
                 <Label 
                     Margin="0,-24,0,0"
@@ -82,8 +82,35 @@
                     Stroke="Transparent"
                     Fill="{StaticResource LightBorderColor}" />
 
+                <!--Planet images-->
+                <Label 
+                    Style="{StaticResource PlanetHeaderSubtitleStyle}"
+                    Text="Gallery"/>
+                <CollectionView
+                    Margin="0,-6,0,0"
+                    HeightRequest="400"
+                    WidthRequest="400"
+                    ItemsSource="{Binding Images}">
+
+                    <CollectionView.ItemsLayout>
+                        <LinearItemsLayout
+                            Orientation="Vertical"
+                            ItemSpacing="16">
+                        </LinearItemsLayout>
+                    </CollectionView.ItemsLayout>
+
+                    <CollectionView.ItemTemplate>
+                        <DataTemplate>
+                            <Image
+                                Source="{Binding .}"
+                                Aspect="AspectFill"
+                                HorizontalOptions="Center"
+                                VerticalOptions="Center">
+                            </Image>
+                        </DataTemplate>
+                    </CollectionView.ItemTemplate>
+                </CollectionView>
             </VerticalStackLayout>
-            
         </ScrollView>
     </Grid>
 </ContentPage>
