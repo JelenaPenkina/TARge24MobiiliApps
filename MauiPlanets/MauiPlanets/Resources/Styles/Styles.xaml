@@ -30,7 +30,7 @@
         <Setter Property="FontFamily" Value="RegularFont"/>
     </Style>
 
-    <Style TargetType="Label" x:Key="BaseMediumrLabelStyle">
+    <Style TargetType="Label" x:Key="BaseMediumLabelStyle">
         <Setter Property="LineBreakMode" Value="TailTruncation"/>
         <Setter Property="FontAutoScalingEnabled" Value="False"/>
         <Setter Property="FontFamily" Value="MediumFont"/>
