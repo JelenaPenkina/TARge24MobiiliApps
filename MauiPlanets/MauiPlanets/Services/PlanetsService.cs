@@ -133,10 +133,10 @@ namespace MauiPlanets.Services
                 AccentColorEnd = Color.FromArgb("#c6502f"),
                 Images = new()
                 {
-                    "https://solarsystem.nasa.gov/system/feature_items/images/151_saturn_carousel_1.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/152_saturn_carousel_2.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/155_saturn_carousel_5.jpg",
-                    "https://solarsystem.nasa.gov/system/feature_items/images/153_saturn_carousel_3.jpg"
+                        "https://solarsystem.nasa.gov/system/feature_items/images/151_saturn_carousel_1.jpg",
+                        "https://solarsystem.nasa.gov/system/feature_items/images/152_saturn_carousel_2.jpg",
+                        "https://solarsystem.nasa.gov/system/feature_items/images/155_saturn_carousel_5.jpg",
+                        "https://solarsystem.nasa.gov/system/feature_items/images/153_saturn_carousel_3.jpg"
                 }
             },
 
@@ -181,13 +181,129 @@ namespace MauiPlanets.Services
                 Images = new()
                 {
                       "https://solarsystem.nasa.gov/system/feature_items/images/82_carousel_neptune_1.jpg",
-                       "https://solarsystem.nasa.gov/system/feature_items/images/86_carousel_neptune_5.jpg",
-                       "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
+                      "https://solarsystem.nasa.gov/system/feature_items/images/86_carousel_neptune_5.jpg",
+                      "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
+                }
+            },
+
+                // KODUTÖÖ 06/10/2025
+
+                new()
+            {
+                Name = "Pluto",
+                Subtitle = "The ninth planet. ",
+                HeroImage = "pluto.png",
+                Description = "Pluto is a complex and mysterious world with mountains, valleys, plains, craters, and glaciers." +
+                "It is located in the distant Kuiper Belt. " +
+                "Discovered in 1930, Pluto was long considered our solar system's ninth planet. But after " +
+                "the discovery of similar worlds deeper in the Kuiper Belt, Pluto was reclassified as a dwarf planet in 2006 " +
+                "by the International Astronomical Union. " +
+                "Pluto is only about 1,400 miles wide. At that small size, Pluto is only about half the width of the United States." +
+                "It's about 3.6 billion miles away from the Sun, and it has a thin atmosphere composed " +
+                "mostly of nitrogen, methane, and carbon monoxide.",
+                AccentColorStart = Color.FromArgb("#0c293d"),
+                AccentColorEnd = Color.FromArgb("#26abe0"),
+                Images = new()
+                {
+                      "https://science.nasa.gov/wp-content/uploads/2024/03/pluto-new-horizons-pia20291-16x9-1.jpg",
+                      "https://solarsystem.nasa.gov/system/feature_items/images/86_carousel_neptune_5.jpg",
+                      "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
+                }
+            },
+
+
+                new()
+            {
+                Name = "Ceres",
+                Subtitle = "The eighth and farthest known planet ",
+                HeroImage = "neptune.png",
+                Description = "Dwarf planet Ceres is the largest object in the asteroid belt between Mars and Jupiter, " +
+                "and it's the only dwarf planet located in the inner solar system. " +
+                "It was the first member of the asteroid belt to be discovered when Giuseppe Piazzi spotted it in 1801." +
+                "When NASA's Dawn arrived in 2015, Ceres became the first dwarf planet to receive a visit from a spacecraft. " +
+                "Called an asteroid for many years, Ceres is so much bigger and so different from its rocky neighbors that " +
+                "scientists classified it as a dwarf planet in 2006. " +
+                "Even though Ceres comprises 25% of the asteroid belt's total" +
+                "mass, Pluto is still 14 times more massive..",
+                AccentColorStart = Color.FromArgb("#0c293d"),
+                AccentColorEnd = Color.FromArgb("#26abe0"),
+                Images = new()
+                {
+                      "https://solarsystem.nasa.gov/system/feature_items/images/82_carousel_neptune_1.jpg",
+                      "https://solarsystem.nasa.gov/system/feature_items/images/86_carousel_neptune_5.jpg",
+                      "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
                 }
             },
 
 
 
+                new()
+            {
+                Name = "Haumea",
+                Subtitle = "It is oval-shaped, and is one of the fastest rotating large objects",
+                HeroImage = "haumea.png",
+                Description = "Haumea is an oval-shaped dwarf planet that is one of the fastest rotating large objects " +
+                "in our solar system. The fast spin distorts Haumea's shape, " +
+                "making this dwarf planet look like a football." +
+                "Two teams claim credit for discovering Haumea citing evidence from observations made in 2003 and 2004. " +
+                "The International Astronomical Union’s Gazetteer of Planetary Nomenclature " +
+                "lists the discovery location as Sierra Nevada Observatory in Spain on March 7, 2003, but no official discoverer is listed. " +
+                "Haumea is named after the Hawaiian goddess of fertility.",
+                AccentColorStart = Color.FromArgb("#0c293d"),
+                AccentColorEnd = Color.FromArgb("#26abe0"),
+                Images = new()
+                {
+                      "https://solarsystem.nasa.gov/system/feature_items/images/82_carousel_neptune_1.jpg",
+                      "https://solarsystem.nasa.gov/system/feature_items/images/86_carousel_neptune_5.jpg",
+                      "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
+                }
+            },
+
+
+
+                 new()
+            {
+                Name = "MakeMake",
+                Subtitle = "Slightly smaller than Pluto, and is the second-brightest object in the Kuiper Belt ",
+                HeroImage = "makemake.png",
+                Description = "Makemake is slightly smaller than Pluto, and is the second-brightest object in the Kuiper Belt" +
+                "as seen from Earth while Pluto is the brightest. " +
+                "It takes about 305 Earth years for this dwarf planet to make one trip around the Sun. " +
+                "Makemake holds an important place in the history of solar system studies because " +
+                " it was one of the objects – along with Eris – whose discovery prompted the International Astronomical Union " +
+                "o reconsider the definition of a planet, and to create the new group of dwarf planets." ,
+                AccentColorStart = Color.FromArgb("#0c293d"),
+                AccentColorEnd = Color.FromArgb("#26abe0"),
+                Images = new()
+                {
+                      "https://solarsystem.nasa.gov/system/feature_items/images/82_carousel_neptune_1.jpg",
+                       "https://solarsystem.nasa.gov/system/feature_items/images/86_carousel_neptune_5.jpg",
+                       "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
+                }
+            },
+
+                 
+                new()
+            {
+                Name = "Erics",
+                Subtitle = "The eighth and farthest known planet ",
+                HeroImage = "erics.png",
+                Description = "The discovery of Eris help trigger a debate in the scientific community that led to the" +
+                "International Astronomical Union's decision in 2006 to clarify the definition of a planet." +
+                "Pluto, Eris, and other similar objects are now classified as dwarf planets. " +
+                "Eris was discovered on Jan. 5, 2005, from data obtained on Oct. 21, 2003,  " +
+                "during a Palomar Observatory survey of the outer solar system by Mike Brown, " +
+                "a professor of planetary astronomy at the California Institute of Technology;" +
+                "Chad Trujillo of the Gemini Observatory; and David Rabinowitz of Yale University." ,
+                AccentColorStart = Color.FromArgb("#0c293d"),
+                AccentColorEnd = Color.FromArgb("#26abe0"),
+                Images = new()
+                {
+                      "https://solarsystem.nasa.gov/system/feature_items/images/82_carousel_neptune_1.jpg",
+                      "https://solarsystem.nasa.gov/system/feature_items/images/86_carousel_neptune_5.jpg",
+                      "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
+                }
+            },
 
         };
 
