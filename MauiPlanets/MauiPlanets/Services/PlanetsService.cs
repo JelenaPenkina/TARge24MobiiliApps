@@ -174,7 +174,7 @@ namespace MauiPlanets.Services
                 "It is 17 times the mass of Earth. Compared to Uranus, its neighbouring ice giant, " +
                 "Neptune is slightly smaller, but more massive and denser. " +
                 "Being composed primarily of gases and liquids, it has no well-defined solid surface." +
-                "cNeptune orbits the Sun once every 164.8 years at an orbital distance of 30.1 astronomical" + 
+                "Neptune orbits the Sun once every 164.8 years at an orbital distance of 30.1 astronomical" + 
                 "units (4.5 billion kilometres; 2.8 billion miles).",
                 AccentColorStart = Color.FromArgb("#0c293d"),
                 AccentColorEnd = Color.FromArgb("#26abe0"),
@@ -192,7 +192,7 @@ namespace MauiPlanets.Services
             {
                 Name = "Pluto",
                 Subtitle = "The ninth planet. ",
-                HeroImage = "pluto.png",
+                HeroImage = "pluto3.png",
                 Description = "Pluto is a complex and mysterious world with mountains, valleys, plains, craters, and glaciers." +
                 "It is located in the distant Kuiper Belt. " +
                 "Discovered in 1930, Pluto was long considered our solar system's ninth planet. But after " +
@@ -201,13 +201,13 @@ namespace MauiPlanets.Services
                 "Pluto is only about 1,400 miles wide. At that small size, Pluto is only about half the width of the United States." +
                 "It's about 3.6 billion miles away from the Sun, and it has a thin atmosphere composed " +
                 "mostly of nitrogen, methane, and carbon monoxide.",
-                AccentColorStart = Color.FromArgb("#0c293d"),
-                AccentColorEnd = Color.FromArgb("#26abe0"),
+                AccentColorStart = Color.FromArgb("#3b2e2b"),
+                AccentColorEnd = Color.FromArgb("#c7a98a"),
                 Images = new()
                 {
                       "https://science.nasa.gov/wp-content/uploads/2024/03/pluto-new-horizons-pia20291-16x9-1.jpg",
-                      "https://solarsystem.nasa.gov/system/feature_items/images/86_carousel_neptune_5.jpg",
-                      "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
+                      "https://www.gannett-cdn.com/presto/2022/03/30/USAT/2b0a574f-1378-4536-9f93-5c7544aa760b-XXX_IMG_SPUTNIK_PLANITIA_COP_1_1_J9GECN43.JPG?width=592&format=pjpg&auto=webp&quality=70",
+                      "https://cdn.mos.cms.futurecdn.net/DoZSMXF87kCuzbymsuEFHo-650-80.jpg.webp"
                 }
             },
 
@@ -216,7 +216,7 @@ namespace MauiPlanets.Services
             {
                 Name = "Ceres",
                 Subtitle = "The eighth and farthest known planet ",
-                HeroImage = "neptune.png",
+                HeroImage = "ceres.png",
                 Description = "Dwarf planet Ceres is the largest object in the asteroid belt between Mars and Jupiter, " +
                 "and it's the only dwarf planet located in the inner solar system. " +
                 "It was the first member of the asteroid belt to be discovered when Giuseppe Piazzi spotted it in 1801." +
@@ -225,13 +225,13 @@ namespace MauiPlanets.Services
                 "scientists classified it as a dwarf planet in 2006. " +
                 "Even though Ceres comprises 25% of the asteroid belt's total" +
                 "mass, Pluto is still 14 times more massive..",
-                AccentColorStart = Color.FromArgb("#0c293d"),
-                AccentColorEnd = Color.FromArgb("#26abe0"),
+                AccentColorStart = Color.FromArgb("#545454"),
+                AccentColorEnd = Color.FromArgb("#b0b0b0"),
                 Images = new()
                 {
-                      "https://solarsystem.nasa.gov/system/feature_items/images/82_carousel_neptune_1.jpg",
-                      "https://solarsystem.nasa.gov/system/feature_items/images/86_carousel_neptune_5.jpg",
-                      "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
+                      "https://science.nasa.gov/wp-content/uploads/2024/03/ceres-dawn-pia19562-16x9-1.jpg?resize=600,338",
+                      "https://cdn.mos.cms.futurecdn.net/PUnWUXynCLFjACVkVFYQ7M-970-80.jpg.webp",
+                      "https://cdn.mos.cms.futurecdn.net/g2uHbkqw93YdbhCXDwQepX-970-80.jpg.webp"
                 }
             },
 
@@ -249,13 +249,13 @@ namespace MauiPlanets.Services
                 "The International Astronomical Union’s Gazetteer of Planetary Nomenclature " +
                 "lists the discovery location as Sierra Nevada Observatory in Spain on March 7, 2003, but no official discoverer is listed. " +
                 "Haumea is named after the Hawaiian goddess of fertility.",
-                AccentColorStart = Color.FromArgb("#0c293d"),
-                AccentColorEnd = Color.FromArgb("#26abe0"),
+                AccentColorStart = Color.FromArgb("#5a3b7a"),
+                AccentColorEnd = Color.FromArgb("#b69cd8"),
                 Images = new()
                 {
-                      "https://solarsystem.nasa.gov/system/feature_items/images/82_carousel_neptune_1.jpg",
-                      "https://solarsystem.nasa.gov/system/feature_items/images/86_carousel_neptune_5.jpg",
-                      "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
+                      "https://science.nasa.gov/wp-content/uploads/2024/03/haumea-30jun2015-22-28ok2-final-16x9-1.jpg?w=231",
+                      "https://theplanets.org/123/2021/10/haumea-physical-characteristics.gif",
+                      "https://t4.ftcdn.net/jpg/09/19/13/67/360_F_919136729_3kWyujrgZey6cn3qJ67NX8VYhHqZkNST.jpg"
                 }
             },
 
@@ -272,13 +272,13 @@ namespace MauiPlanets.Services
                 "Makemake holds an important place in the history of solar system studies because " +
                 " it was one of the objects – along with Eris – whose discovery prompted the International Astronomical Union " +
                 "o reconsider the definition of a planet, and to create the new group of dwarf planets." ,
-                AccentColorStart = Color.FromArgb("#0c293d"),
-                AccentColorEnd = Color.FromArgb("#26abe0"),
+                AccentColorStart = Color.FromArgb("#4d241c"),
+                AccentColorEnd = Color.FromArgb("#c7663b"),
                 Images = new()
                 {
-                      "https://solarsystem.nasa.gov/system/feature_items/images/82_carousel_neptune_1.jpg",
-                       "https://solarsystem.nasa.gov/system/feature_items/images/86_carousel_neptune_5.jpg",
-                       "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
+                       "https://science.nasa.gov/wp-content/uploads/2024/03/dwarf-planet-makemake-16x9-1.jpg?resize=600,337",
+                       "https://www.schoolsobservatory.org/sites/default/files/styles/full_width_1180/public/dwarfs.png?itok=ku-puV_8",
+                       "https://cdn.mos.cms.futurecdn.net/6JvMKFf8EPHJVavsZ3hHjj.jpg"
                 }
             },
 
@@ -295,13 +295,13 @@ namespace MauiPlanets.Services
                 "during a Palomar Observatory survey of the outer solar system by Mike Brown, " +
                 "a professor of planetary astronomy at the California Institute of Technology;" +
                 "Chad Trujillo of the Gemini Observatory; and David Rabinowitz of Yale University." ,
-                AccentColorStart = Color.FromArgb("#0c293d"),
-                AccentColorEnd = Color.FromArgb("#26abe0"),
+                AccentColorStart = Color.FromArgb("#243b4a"),
+                AccentColorEnd = Color.FromArgb("#7ab9d6"),
                 Images = new()
                 {
-                      "https://solarsystem.nasa.gov/system/feature_items/images/82_carousel_neptune_1.jpg",
-                      "https://solarsystem.nasa.gov/system/feature_items/images/86_carousel_neptune_5.jpg",
-                      "https://solarsystem.nasa.gov/system/feature_items/images/84_neptune_carousel_2.jpg"
+                      "https://assets.science.nasa.gov/dynamicimage/assets/science/psd/solar/2023/09/e/ErisArtistConcept1200w.jpg?w=1200&h=900&fit=clip&crop=faces%2Cfocalpoint",
+                      "https://media.istockphoto.com/id/953189252/photo/dwarf-planets.jpg?s=612x612&w=0&k=20&c=NdCYjVW3XeySRrRgdoyHLfozK1AnyyjyUCBiqQvlRrQ=",
+                      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT6l-ZBVC_i_tzWs-kfjBjmKzbu2Ue2kB12AA&s"
                 }
             },
 
