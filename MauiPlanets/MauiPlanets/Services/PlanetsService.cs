@@ -207,7 +207,7 @@ namespace MauiPlanets.Services
                 {
                       "https://science.nasa.gov/wp-content/uploads/2024/03/pluto-new-horizons-pia20291-16x9-1.jpg",
                       "https://www.gannett-cdn.com/presto/2022/03/30/USAT/2b0a574f-1378-4536-9f93-5c7544aa760b-XXX_IMG_SPUTNIK_PLANITIA_COP_1_1_J9GECN43.JPG?width=592&format=pjpg&auto=webp&quality=70",
-                      "https://cdn.mos.cms.futurecdn.net/DoZSMXF87kCuzbymsuEFHo-650-80.jpg.webp"
+                      "https://cdn.mos.cms.futurecdn.net/DoZSMXF87kCuzbymsuEFHo-650-80.jpg"
                 }
             },
 
@@ -230,8 +230,8 @@ namespace MauiPlanets.Services
                 Images = new()
                 {
                       "https://science.nasa.gov/wp-content/uploads/2024/03/ceres-dawn-pia19562-16x9-1.jpg?resize=600,338",
-                      "https://cdn.mos.cms.futurecdn.net/PUnWUXynCLFjACVkVFYQ7M-970-80.jpg.webp",
-                      "https://cdn.mos.cms.futurecdn.net/g2uHbkqw93YdbhCXDwQepX-970-80.jpg.webp"
+                      "https://cdn.mos.cms.futurecdn.net/PUnWUXynCLFjACVkVFYQ7M-970-80.jpg",
+                      "https://cdn.mos.cms.futurecdn.net/g2uHbkqw93YdbhCXDwQepX-970-80.jpg"
                 }
             },
 
